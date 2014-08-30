@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e7a2d3-7278-4f7b-80fe-6618ed72ded1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/untitled.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../geometry/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/asjed.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../geom_formulae.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/as/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/geom_formulae.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry/geometry_formulae.py" afterPath="$PROJECT_DIR$/../geometry/geometry_formulae.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../geometry/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../geometry/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -423,7 +410,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="52" width="1301" height="716" extended-state="1" />
+    <frame x="192" y="52" width="1301" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31594634" sideWeight="0.49884704" order="7" side_tool="false" content_ui="tabs" />
