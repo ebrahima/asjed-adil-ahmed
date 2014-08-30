@@ -95,4 +95,16 @@ if __name__=="__main__":
 print("volume:",
       cone_volume(sampleradius,sampleheight))
 
+def disk_ambient(quarter):
+    """
+    calculate the ambient of disk
+    :param quarter: quarter of disk
+    :return: the ambient of the disk
+    """
+    return pi*quarter
+if __name__=="__main__":
+    samplequarter = 7
+print("ambient:",
+      disk_ambient(samplequarter))
+
 
