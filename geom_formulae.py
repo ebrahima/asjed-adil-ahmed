@@ -5,15 +5,17 @@ import math
 from numpy import *
 
 
-def circle_area(radius):
+def circle_area(radius: Number) -> Number:
     """
-    calculate area of a circle
-    :param radius: radius of a circle
-    :return:area of a circle(in square units of radius)
+    calculate area of a circle given the radius.
+
+    @param radius: radius of a circle
+    @return: the area (unit^2 given radius)
+
+    >>>circle_area(2)
     """
-    r2 = radius**2
-    return math.pi*r2
-print(circle_area(5))
+    return pi*radius**2
+print(circle_area(2))
 
 def rectangle_area(length, width):
     """
@@ -24,26 +26,25 @@ def rectangle_area(length, width):
     >>> rectangle_area(3,2)
     6
     """
-    return length*width
+    return lenght * widgth
 
 print(rectangle_area(3, 2))
 
-def triangle_area(base, heigt):
+
+def triangle_area(base, height):
     """
-    calculate area of a triangle
-    :param base: base of atringle
-    :param heigt:
-    :return:
+    calculate area of a triangle.
+    :param base: base of a triangle
+    :param height: height of a triangle
+    :return:area of a triangle
+    >>>triangle_area(2, 4)
     """
-    b = base
-    h = heigt
-    return 1/2*b*h
+    return 0.5 * base * height
 
-print(calculate_area_triangle(2, 4))
+print(triangle_area(2, 4))
 
-def calculate_area_rectangle(length, width):
-    l = length
-    w = width
-    return l*w
 
-print(calculate_area_rectangle(2, 4))
+def sphere_volume(radius):
+    """
+    calculate volume of a sphere
+
