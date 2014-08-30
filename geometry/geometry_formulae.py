@@ -68,5 +68,3 @@ def cylinder_volume(radius, height):
     return pi*radius**2*height
 
 print(cylinder_volume(2, 3))
-
-
