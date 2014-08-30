@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d268d044-dde5-46d2-9a29-6d4028772b31" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/asjed.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../asjed/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../geom_formulae.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/as/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/geom_formulae.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/hw.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geometry_formulae.py" afterPath="$PROJECT_DIR$/geometry_formulae.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="geometry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +29,8 @@
       <file leaf-file-name="geometry_formulae.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geometry_formulae.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32917705" vertical-offset="138" max-vertical-offset="1332">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.91022444" vertical-offset="1021" max-vertical-offset="1512">
+              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
               <folding>
                 <element signature="e#22#41#0" expanded="true" />
               </folding>
@@ -70,8 +56,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="49" />
+    <option name="x" value="65" />
+    <option name="y" value="44" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
@@ -304,11 +290,15 @@
       <created>1409415343090</created>
       <updated>1409415343092</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hi">
+      <created>1409415656801</created>
+      <updated>1409415656801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="49" width="1301" height="744" extended-state="0" />
+    <frame x="65" y="44" width="1301" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -355,8 +345,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/geometry_formulae.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32917705" vertical-offset="138" max-vertical-offset="1332">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.91022444" vertical-offset="1021" max-vertical-offset="1512">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
           <folding>
             <element signature="e#22#41#0" expanded="true" />
           </folding>

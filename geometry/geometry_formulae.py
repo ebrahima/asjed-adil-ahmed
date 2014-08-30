@@ -66,3 +66,13 @@ def cylinder_volume(radius, height):
     return pi*radius**2*height
 
 print(cylinder_volume(2, 3))
+
+def cone_volume(radius, height):
+    """
+    calculate the volume of cone.
+    :param radius: radius of cone
+    :param height: height of cone
+    :return: the volume of the cone
+    """
+    return 4*radius*radius*0.333
+print(cone_volume(2, 5))
