@@ -1,9 +1,7 @@
 __author__ = 'asjed'
 
-
-import math
 from numpy import *
-
+from numbers import Number
 
 def circle_area(radius: Number) -> Number:
     """
@@ -28,7 +26,7 @@ def rectangle_area(side, length):
     >>> rectangle_area(3,2)
 
     """
-    return sids*length
+    return side*length
 
 print(rectangle_area(3, 2))
 
