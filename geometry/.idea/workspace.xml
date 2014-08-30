@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d268d044-dde5-46d2-9a29-6d4028772b31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geometry_formulae.py" afterPath="$PROJECT_DIR$/geometry_formulae.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="geometry.iws" />
@@ -346,7 +345,11 @@
       <created>1409433613784</created>
       <updated>1409433613784</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hi">
+      <created>1409435747308</created>
+      <updated>1409435747308</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
