@@ -154,3 +154,24 @@ if __name__=="__main__":
 print("area:",
      pentagon_area(sampleside, sampleheight))
 
+def pyramid_volume(length, weigth, height):
+    """
+    calculate the volume phyramid.
+
+    :param length: length of phyramid
+    :param weigth: weigth of phyramid
+    :param height: height of phyramid
+
+    :return: the volume of pyramid
+    >>> pyramid_volume(8, 12, 6)
+    """
+    return length*weigth*height/3
+if __name__=="__main__":
+    samplelength = 8
+    sampleweigth = 12
+    sampleheight = 6
+    print("volume",
+          pyramid_volume(samplelength, sampleweigth, sampleheight))
+
+
+
