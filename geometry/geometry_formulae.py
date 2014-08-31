@@ -11,31 +11,32 @@ def circle_area(radius):
     :return: the area (unit^2 given radius)
 
     >>>circle_area(2)
+    12.6
     """
     return pi*(radius**2)
 if __name__ == "__main__":
     sampleradius = 2
     print("area:",
-         circle_area(sampleradius))
+          circle_area(sampleradius))
 
 
-def rectangle_area(side, length):
+def rectangle_area(width, length):
     """
     calculate area of a rectangle from side length.
 
-    :param side: side of rectangle
+    :param width: width of rectangle
     :param length: length of rectangle
-    :return: the area(unit^2 as side)
+    :return: the area(unit^2 as width)
 
     >>> rectangle_area(3, 2)
-
+    6
     """
-    return side*length
+    return width*length
 if __name__ == "__main__":
-    sampleside = 3
+    samplewidth = 3
     samplelength = 2
 print("area:",
-      rectangle_area(sampleside, samplelength))
+      rectangle_area(samplewidth, samplelength))
 
 
 def triangle_area(base, height):
@@ -47,6 +48,7 @@ def triangle_area(base, height):
     :return: the area (unit^2 from base)
 
     >>>triangle_area(2, 4)
+    4
     """
     return 0.5 * base*height
 if __name__ == "__main__":
@@ -64,30 +66,31 @@ def sphere_volume(radius):
     :return: the volume (unit^3 from radius)
 
     >>>sphere_volume(4)
+    268.1
     """
-    return 4*pi*radius*radius*radius/3
+    return (4*pi*radius**3)/3
 if __name__ == "__main__":
-    samplradius = 4
+    sampleradius = 4
 print("volume:",
       sphere_volume(sampleradius))
 
 
 def cylinder_volume(radius, height):
     """
-    calculate volume of a cylinder.
+    calculate volume of a cylinder from radius height.
 
     :param radius: radius of cylinder
     :param height: height of cylinder
 
     :return: the volume (unit^3 from radius)
     >>>cylinder_volume(2, 3)
+    37.7
     """
-    return pi*radius**2*height
+    return pi*(radius**2)*height
 if __name__ == "__main__":
-    sampleraidus = 2
+    sampleradius = 2
     sampleheight = 3
-print("volume:",
-      cylinder_volume(sampleradius, sampleheight))
+print("Volume of cylinder: ", cylinder_volume(2, 3))
 
 
 def cone_volume(radius, height):
@@ -99,8 +102,9 @@ def cone_volume(radius, height):
 
     :return: the volume (units^3)
     >>>cone_volume(2, 5)
+    20.94
     """
-    return 4*radius*radius*height/3
+    return (pi*radius**2*height)/3
 if __name__ == "__main__":
     sampleradius = 2
     sampleheight = 5
@@ -116,6 +120,7 @@ def disk_ambient(quarter):
 
     :return: the ambient (units from quarter)
     >>>disk_ambient(7)
+    21.99
     """
     return pi*quarter
 if __name__ == "__main__":
@@ -134,6 +139,7 @@ def trapezium_area(b1, b2, height):
 
     :return:the area (units^2)
     >>>trapezium_area(2, 3, 4)
+    10
     """
     return 0.5*(b1+b2)*height
 if __name__ == "__main__":
@@ -153,6 +159,7 @@ def pentagon_area(side, height):
 
     :return:the area (units^2)
     >>>pentagon_area(6, 4)
+    60
     """
     return 0.5*side*height*5
 if __name__ == "__main__":
@@ -162,24 +169,24 @@ print("area:",
      pentagon_area(sampleside, sampleheight))
 
 
-def pyramid_volume(length, weight, height):
+def pyramid_volume(length, width, height):
     """
-    calculate the volume phyramidg from length weight height.
+    calculate the volume pyramidg from length weight height.
 
     :param length: length of pyramid
-    :param weight: weigth of pyramid
+    :param width: width of pyramid
     :param height: height of pyramid
 
     :return: the volume (units^3)
     >>> pyramid_volume(8, 12, 6)
+    192
     """
-    return length*weight*height/3
-if __name__=="__main__":
+    return (length*width*height)/3
+if __name__ == "__main__":
     samplelength = 8
-    sampleweight = 12
+    samplewidth = 12
     sampleheight = 6
-    print("volume",
-          pyramid_volume(samplelength, sampleweight, sampleheight))
-
+    print("volume:",
+          pyramid_volume(samplelength, samplewidth, sampleheight))
 
 
