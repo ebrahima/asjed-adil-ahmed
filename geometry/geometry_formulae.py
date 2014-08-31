@@ -3,6 +3,7 @@ __author__ = 'asjed'
 from numpy import *
 from numbers import Number
 
+
 def circle_area(radius):
     """
     calculate area of a circle given the radius.
@@ -35,8 +36,8 @@ def rectangle_area(width, length):
 if __name__ == "__main__":
     samplewidth = 3
     samplelength = 2
-print("area:",
-      rectangle_area(samplewidth, samplelength))
+    print("area:",
+          rectangle_area(samplewidth, samplelength))
 
 
 def triangle_area(base, height):
@@ -54,8 +55,8 @@ def triangle_area(base, height):
 if __name__ == "__main__":
     samplebase = 2
     sampleheight = 4
-print("area:",
-      triangle_area(samplebase, sampleheight))
+    print("area:",
+          triangle_area(samplebase, sampleheight))
 
 
 def sphere_volume(radius):
@@ -71,8 +72,8 @@ def sphere_volume(radius):
     return (4*pi*radius**3)/3
 if __name__ == "__main__":
     sampleradius = 4
-print("volume:",
-      sphere_volume(sampleradius))
+    print("volume:",
+          sphere_volume(sampleradius))
 
 
 def cylinder_volume(radius, height):
@@ -90,7 +91,7 @@ def cylinder_volume(radius, height):
 if __name__ == "__main__":
     sampleradius = 2
     sampleheight = 3
-print("Volume of cylinder: ", cylinder_volume(2, 3))
+    print("Volume of cylinder: ", cylinder_volume(2, 3))
 
 
 def cone_volume(radius, height):
@@ -108,8 +109,8 @@ def cone_volume(radius, height):
 if __name__ == "__main__":
     sampleradius = 2
     sampleheight = 5
-print("volume:",
-      cone_volume(sampleradius, sampleheight))
+    print("volume:",
+          cone_volume(sampleradius, sampleheight))
 
 
 def disk_ambient(quarter):
@@ -125,8 +126,8 @@ def disk_ambient(quarter):
     return pi*quarter
 if __name__ == "__main__":
     samplequarter = 7
-print("ambient:",
-      disk_ambient(samplequarter))
+    print("ambient:",
+          disk_ambient(samplequarter))
 
 
 def trapezium_area(b1, b2, height):
@@ -146,8 +147,8 @@ if __name__ == "__main__":
     sampleb1 = 2
     sampleb2 = 3
     sampleheight = 4
-print("area:",
-      trapezium_area(sampleb1, sampleb2, sampleheight))
+    print("area:",
+          trapezium_area(sampleb1, sampleb2, sampleheight))
 
 
 def pentagon_area(side, height):
@@ -164,9 +165,9 @@ def pentagon_area(side, height):
     return 0.5*side*height*5
 if __name__ == "__main__":
     sampleside = 6
-    samplegeight = 4
-print("area:",
-     pentagon_area(sampleside, sampleheight))
+    sampleheight = 4
+    print("area:",
+          pentagon_area(sampleside, sampleheight))
 
 
 def pyramid_volume(length, width, height):
