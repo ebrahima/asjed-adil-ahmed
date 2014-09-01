@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d268d044-dde5-46d2-9a29-6d4028772b31" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/geometry_formulae.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" />
     </list>
     <ignored path="geometry.iws" />
