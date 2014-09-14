@@ -1,131 +1,135 @@
 __author__ = 'asjed'
 
-
-from geometry_formulae import *
 from nose.tools import *
+from geometry_formulae import *
 
 
 def test_circle_area_int():
-    assert circle_area(1) == pi
-    assert circle_area(2) == 4*pi
-    s = 5
-    assert circle_area(s*2) == 4*circle_area(s)
+    assert circle_area(1) == pi*(1**2)
+    assert circle_area(2) == pi*(2**2)
 
 
-eps = 1e-6
+eps = 1e-9
+
+
 def test_circle_area_double():
-    assert 1/2 - eps < circle_area(2.5) < 1/2 + eps
+    assert 19.634954085 - eps < circle_area(2.5) < 19.634954085 + eps
 
-def test_fail_circle_area():
-    assert circle_area(2) == 4*pi
+
+@raises(TypeError)
+def test_square_area_other():
+    circle_area("a string")
+
+###############ssss##############
+
 
 def test_rectangle_area_int():
     assert rectangle_area(2, 3) == 6
     assert rectangle_area(1, 2) == 2
-    s = 4
-    assert rectangle_area(s*2) == 4*rectangle_area(s)
 
 
-eps = 1e-6
+eps = 1e-4
+
+
 def test_rectangle_area_double():
-    assert 1/2 - eps < rectangle_area(4) < 1/2 + eps
+    assert 1/6 - eps < rectangle_area(1/2, 1/3) < 1/6 + eps
 
-def test_fail_rectangle_area():
-    assert rectangle_area(4) == 20
+
+@raises(TypeError)
+def test_rectangle_area_other():
+    rectangle_area('a string', 'a string')
+
+################sss###############33
+
 
 def test_sphere_volume_int():
-    assert sphere_volume(4) == 268.08
+    assert sphere_volume(4) == (4/3)*pi*(4**3)
     assert sphere_volume(1) == 4/3*pi
-    s = 4
-    assert sphere_volume(s*2) == 4*triangle_area(s)
 
 
 eps = 1e-6
-def test_sphere_double():
-    assert 1/2 - eps < sphere_volume(4) < 1/2 + eps
 
-def test_fail_sphere_volume():
-    assert sphere_volume(4) == 268.08
+
+def test_sphere_double():
+    assert 14.137166941 - eps < sphere_volume(1.5) < 14.137166941 + eps
+################sss##############
+
 
 def test_cylinder_volume_int():
-    assert cylinder_volume(2, 3) == 37.7
-    assert cylinder_volume(1, 1) == pi
-    s = 4
-    assert cylinder_volume(s*2) == 4*cylinder_volume(s)
+    assert cylinder_volume(2, 3) == pi*(2**2)*3
+    assert cylinder_volume(1, 1) == pi*(1**2)*1
 
 
-eps = 1e-6
+eps = 1e-9
+
+
 def test_cylinder_double():
-    assert 1/2 - eps < cylinder_volume(4) < 1/2 + eps
+    assert 144.764589477 - eps < cylinder_volume(3.2, 4.5) < 144.764589477 + eps
 
 
-def test_fail_cylinder_volume():
-    assert cylinder_volume(4) == 268.08
-
+##############sss################
 def test_cone_volume_int():
-    assert cone_volume(2, 5) == 20.94
-    assert cone_volume(1, 1) == pi/3
-    s = 4
-    assert cone_volume(s*2) == 4*cone_volume(s)
+    assert cone_volume(2, 5) == (pi*(2**2)*5)/3
+    assert cone_volume(1, 1) == (pi*(1**1)*1)/3
 
+eps = 1e-9
 
-eps = 1e-6
 def test_cone_double():
-    assert 1/2 - eps < cone_volume(4) < 1/2 + eps
+    assert 27.143360527 - eps < cone_volume(2.4, 4.5) < 27.143360527 + eps
 
+###############sss#############
 
-def test_fail_cone_volume():
-    assert cone_volume(2, 5) == 20.94
 
 def test_trapezium_area_int():
-    assert trapezium_area(2, 3, 4) == 10
-    assert trapezium_area(1, 1, 1) == 1
-    s = 4
-    assert trapezium_area(s*2) == 4*trapezium_area(s)
+    assert trapezium_area(2, 3, 4) == 0.5*(2+3)*4
+    assert trapezium_area(1, 3, 5) == 0.5*(1+3)*5
+
+eps = 1e-2
 
 
-eps = 1e-6
 def test_trapezium_double():
-    assert 1/2 - eps < trapezium_area(4) < 1/2 + eps
+    assert 31.95 - eps < trapezium_area(3.4, 5.6, 7.1) < 31.95 + eps
 
 
-def test_fail_trapezium_area():
-    assert trapezium_area(2, 3, 4) == 10
-def test_fail_cone_volume():
-    assert cone_volume(2, 5) == 20.94
+#################sss###################
+
 
 def test_pentagon_area_int():
-    assert pentagon_area(6, 4) == 60.0
-    assert pentagon_area(1, 1) == 0.5
-    s = 4
-    assert pentagon_area(s*2) == 4*trapezium_area(s)
+    assert pentagon_area(6, 4) == 0.5*6*4*5
+    assert pentagon_area(3, 5) == 0.5*3*5*5
 
 
-eps = 1e-6
 def test_pentagon_double():
-    assert 1/2 - eps < pentagon_area(6, 4) < 1/2 + eps
+    assert 20 - eps < pentagon_area(2.5, 3.2) < 20 + eps
 
 
-def test_fail_pentagon_area():
-    assert pentagon_area(6, 4) == 60.0
-
+##################sss###########
 
 def test_pyramid_volume_int():
-    assert pyramid_volume(8, 12, 6) == 192.0
-    assert pyramid_volume(1, 1, 1) == 1/3
-    s = 4
-    assert pyramid_volume(s*2) == 4*trapezium_area(s)
+    assert pyramid_volume(8, 12, 6) == (8*12*6)/3
+    assert pyramid_volume(5, 3, 4) == (5*3*4)/3
+
+esp = 1e-2
 
 
-eps = 1e-6
 def test_pyramid_double():
-    assert 1/2 - eps < pyramid_volume(8, 12, 6) < 1/2 + eps
+    assert 56.76 - eps < pyramid_volume(4.3, 5.5, 7.2) < 56.76 + eps
+
+##############sss###########
 
 
-def test_fail_pyramid_volume():
-    assert pyramid_volume(8, 12, 6) == 192.0
+def test_triangle_area_int():
+    assert triangle_area(2, 4) == 0.5*2*4
+    assert triangle_area(1, 2) == 0.5*1*2
 
 
+eps = 1e-2
+
+
+def test_triangle_area_double():
+    assert 5.25 - eps < triangle_area(2.5, 4.2) < 5.25 + eps
+
+################sss##############
 
 
 
